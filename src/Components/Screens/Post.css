@@ -1,0 +1,55 @@
+.card{
+    width : 23rem;
+    margin-bottom: 10px;
+  }
+.card img{
+    height : 200px;
+}
+.logo-text{
+    /* Fallback: Set a background color. */
+    background-color: red;
+    font-size: 1rem;
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    font-weight: bold;
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.cut-text{
+    font-family: "Varela Round", sans-serif;
+/*     font-size: 14px; */
+    color: #444;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.card-body a{
+    color : black
+}
+.card-body a:hover{
+    text-decoration: none;
+}
+.border-gradient {
+    border-top: 10px solid;
+    border-image-slice: 1;
+    border-top-width: 5px;
+    
+    
+}
+.border-gradient-purple {
+    border-image-source: linear-gradient(to right, #bb99f5, #f88bd0);
+
+}

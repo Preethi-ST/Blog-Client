@@ -1,0 +1,110 @@
+.post{
+    
+    width: calc(100% - 40px);
+    height : 100%;
+    margin: 20px;
+    margin-top: 70px;
+}
+
+.post img{
+    display: block;
+    margin: 0 auto;
+    height: 350px;
+    width : 75%
+}
+
+@media only screen and (max-width: 600px) {
+    .post img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    width : 95%
+    }
+}
+.post p{
+    margin-top: 10px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.author{
+    background-color: red;
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+/* Post Desc*/
+
+.singlePostDesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+  
+.singlePostDesc::first-letter {
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+  
+.singlePostDescInput {
+    border: none;
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+  
+.singlePostDescInput:focus {
+    outline: none;
+}
+span .fa-file-edit, span .fa-trash{
+    cursor: pointer;
+}
+
+textarea
+{
+  border:1px solid #999999;
+  width:100%;
+  margin:5px 0;
+  padding:3px;
+  height: 100vh;
+}
+
+.singlePostTitleInput {
+    margin: 10px;
+    font-family: "Lora", serif;
+    font-size: 28px;
+    text-align: center;
+    border: none;
+    color: gray;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+}
+  
+.singlePostTitleInput:focus {
+    outline: none;
+}
+
+.singlePostButton {
+    width: 100px;
+    border: none;
+    background-color: teal;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 20px;
+}
