@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+.align-app {
+  padding-top: 100px;
+} 
+.conainer-fluid{
+  padding: 0;
+  color:rgb(23, 221, 172)
+}
